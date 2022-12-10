@@ -1,0 +1,7 @@
+.page {
+  @apply p-1 bg-gray-200 rounded-md w-8 h-8;
+}
+
+.page-active {
+  @apply bg-blue-500 text-white;
+}

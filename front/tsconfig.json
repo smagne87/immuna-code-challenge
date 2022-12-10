@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "downlevelIteration": true,
+    "types": [
+      "reflect-metadata",
+      "@icelandinteractive/ds-kit/lib/types",
+      "vite/client"
+    ],
+    "baseUrl": "src",
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@features/*": [
+        "./features/*"
+      ],
+      "@config/*": [
+        "./config/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@stories/*": [
+        "./stories/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

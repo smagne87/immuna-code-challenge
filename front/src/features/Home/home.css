@@ -1,0 +1,27 @@
+.bg-home {
+  height: calc(100vh - 64px);
+}
+
+.bg-form {
+  background-color: #f4f9ff;
+  height: calc(100vh - 64px);
+}
+
+.form-container {
+  @apply flex flex-col items-center rounded-lg shadow-sm p-8 bg-white;
+  min-height: 600px;
+}
+
+.text-field {
+  background-color: #efefef;
+  @apply rounded-full p-5 w-full;
+}
+
+.button {
+  @apply rounded-full p-5 w-full text-white bg-blue-600;
+  background-color: #1d7dea !important;
+}
+
+.error {
+  @apply border-red-500 border;
+}

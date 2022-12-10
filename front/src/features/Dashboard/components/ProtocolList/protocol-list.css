@@ -1,0 +1,14 @@
+.list-container {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 80px;
+}
+
+.list-container div {
+    overflow-y: auto;
+}
+
+.list-container td, th {
+    @apply font-normal p-3;
+}
